@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xsd:element name="Hotels" type="HotelsType"/>
+	<xsd:complexType name="HotelsType">
+		<xsd:sequence>
+			<xsd:element name="Hotel" type="HotelDetails" minOccurs="1" maxOccurs="unbounded"/>
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="HotelDetails">
+		<xsd:sequence>
+			<xsd:element name="Name" type="xsd:string" minOccurs="1" maxOccurs="1" />
+			<xsd:element name="Phone" type="PhoneType" minOccurs="1" maxOccurs="unbounded" />
+			<xsd:element name="Address" type="AddressDetails" minOccurs="1" maxOccurs="1"/>
+		</xsd:sequence>
+		<xsd:attribute name="rating" type="xsd:decimal" use="optional"/>
+	</xsd:complexType>
+	<xsd:simpleType name="PhoneType">
+		<xsd:restriction base="xsd:string">
+			<xsd:pattern value="\d{3}\-\d{3}-\d{4}"/>
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="AddressDetails">
+		<xsd:sequence>
+			<xsd:element name="Number" type="xsd:unsignedInt" />
+			<xsd:element name="Street" type="xsd:string" />
+			<xsd:element name="City" type="xsd:string" />
+			<xsd:element name="State" type="xsd:string" />
+			<xsd:element name="Zip" type="xsd:unsignedInt" />
+		</xsd:sequence>
+		<xsd:attribute name="NearestAirport" type="xsd:string" use="required" />
+	</xsd:complexType>
+</xsd:schema>

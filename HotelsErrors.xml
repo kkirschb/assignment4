@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Hotel
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="/Hotels.xsd Hotels.xsd">
+	<Hotel rating="4.2">
+		<Name>Westin</Name>
+		<Phone>480-968-8885</Phone>
+		<Phone>800-937-8461</Phone>
+		<Address>
+			<Number>11</Number>
+			<Street>E. 7th St</Street>
+			<City>Tempe</City>
+			<State>AZ</State>
+			<Zip>85281</Zip>
+		</Address>
+	</Hotel>
+	<Hotel rating="4.6">
+		<Name>Westin Kierland Villas</Name>
+		<Phone>480-625-1700</Phone>
+		<Address NearestAirport="Scottsdale Airport">
+			<Number>15620</Number>
+			<Street>N Clubgate Dr.</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85254</Zip>
+		</Address>
+	</Hotel>
+	<Hotel rating="4.3">
+		<Name>Arizona Grand Resort</Name>
+		<Phone>877-800-4888</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>8000</Number>
+			<Street>South Arizona Grand E</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85044</Zip>
+		</Address>
+	</Hotel>
+	<Hotel rating="3.3">
+		<Name>Motel 6</Name>
+		<Address NearestAirport="Sky Harbor">
+			<Number>5315</Number>
+			<Street>E Van Buren St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85008</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Best Westin</Name>
+		<Name>Best Westin Inn</Name>
+		<Phone>480-994-4170</Phone>
+		<Phone>800-780-7234</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>5315</Number>
+			<Street>E Van Buren St</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85008</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Hilton Mirage</Name>
+		<Phone>480-473-4000</Phone>
+		<Phone>855-256-0288</Phone>
+		<Phone>800-649-0612</Phone>
+		<Address NearestAirport="Scottsdale Airport">
+			<Number>7887</Number>
+			<Street>E Princess Blvd.</Street>
+			<City>Scottsdale</City>
+			<State>AZ</State>
+			<Zip>85255</Zip>
+	</Hotel>
+	<Hotel rating="4.4">
+		<Name>Hampton Inn</Name>
+		<Phone>602-956-5221</Phone>
+		<Address NearestAirport="Sky Harbor">
+			<Number>2310</Number>
+			<Street>E Highland Ave.</Street>
+			<City>Phoenix</City>
+			<State>AZ</State>
+			<Zip>85016</Zip>
+		</Address>
+	</Hotel>
+	<Hotel rating="4.4">
+		<Name>Courtyard by Mariott</Name>
+		<Phone>480-351-7088</Phone>
+		<Address NearestAirport="Mesa Gateway">
+			<Number>6907</Number>
+			<Street>E Ray Rd.</Street>
+			<City>Mesa</City>
+			<State>AZ</State>
+			<Zip>85212</Zip>
+		</Address>
+	</Hotel>
+	<Hotel rating="4.3">
+		<Name>Best Western Inn</Name>
+		<Phone>928-474-9800</Phone>
+		<Address NearestAirport="Payson Airport">
+			<Number>301</Number>
+			<Street>S Beeline Hwy</Street>
+			<City>Payson</City>
+			<State>AZ</State>
+			<Zip>85541</Zip>
+		</Address>
+	</Hotel>
+	<Hotel>
+		<Name>Springhill Suites</Name>
+		<Phone>928-774-8042</Phone>
+		<Address NearestAirport="Flagstaff Pulliam Airport">
+			<Number>2455</Number>
+			<Street>S Belulah Blvd</Street>
+			<City>Flagstaff</City>
+			<State>AZ</State>
+			<Zip>86001</Zip>
+		</Address>
+	</Hotel>
+</Hotel>
