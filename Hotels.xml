@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Hotels
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="https://kkirschb.github.io/assignment_4/Hotels.xsd Hotels.xsd">
+	xsi:noNamespaceSchemaLocation="https://kkirschb.github.io/assignment4/Hotels.xsd">
 	<Hotel rating="4.2">
 		<Name>Westin</Name>
 		<Phone>480-968-8885</Phone>
