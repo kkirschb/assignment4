@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+			xmlns="https://kkirschb.github.io/assignment4/Hotels.xsd"
+			targetNamespace="https://kkirschb.github.io/assignment4/Hotels.xsd"
 		elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xsd:element name="Hotels" type="HotelsType"/>
 	<xsd:complexType name="HotelsType">
