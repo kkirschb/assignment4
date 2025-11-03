@@ -114,4 +114,15 @@
 			<Zip>86001</Zip>
 		</Address>
 	</Hotel>
+	<Hotel rating="4.4">
+		<Name>Inn at Eagle Mountain</Name>
+		<Phone>602-842-7529</Phone>
+		<Address NearestAirport="Scottsdale Airport">
+			<Number>9800</Number>
+			<Street>N Summer Hill Blvd</Street>
+			<City>Fountain Hills</City>
+			<State>AZ</State>
+			<Zip>85268</Zip>
+		</Address>
+	</Hotel>
 </Hotel>
