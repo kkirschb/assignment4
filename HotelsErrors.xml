@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Hotel
+<Hotels
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:noNamespaceSchemaLocation="https://kkirschb.github.io/assignment4/Hotels.xsd">
 	<Hotel rating="4.2">
@@ -115,4 +115,4 @@
 			<Zip>86001</Zip>
 		</Address>
 	</Hotel>
-</Hotel>
+</Hotels>
